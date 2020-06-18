@@ -1,0 +1,270 @@
+@charset "utg-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main .left {
+    float: left;
+    width: 384px;
+    height: 100%;
+    position: fixed;
+    border: none;
+    background-color: white;
+    display: table;
+}
+
+main .right {
+    float: right;
+    width: 1519px;
+}
+
+main .right {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* navigaition */
+
+main .left nav {
+    width: 100%;
+    background-color: rgb(235, 196, 192);
+}
+
+main .left nav div.nav {
+    display: inline;
+}
+
+/* main .left {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+main .left nav div .fa {
+    text-align: left;
+    color: rgb(197, 141, 141);
+    font-size: 30px;
+    padding: 10px 48px;
+}
+
+
+/* logo */
+
+main .left .logo {
+    padding: 10px 10px 10px 30px;
+    border-bottom: 1px solid rgba(197, 141, 141, 0.466);
+}
+
+main .left .logo:hover {
+ background-color: rgb(197, 141, 141);
+ cursor: pointer;
+}
+
+/* list */
+
+main .left a i:hover {
+    background-color: rgb(175, 154, 152);
+    color: mistyrose;
+}
+
+main .left .list ul li:hover {
+    list-style-type: none;
+    cursor: pointer;
+    background-color: rgb(219, 206, 204);
+}
+
+main .left .list ul li {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+
+/* right */
+
+/* header */
+.right .home {
+    background-color: rgb(248, 232, 205);
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.right .home h1 { 
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(97, 63, 3);
+    font-size: 40px;
+}
+
+/* main */
+
+section .section1 {
+    margin-bottom: 15px;
+    background-color: rgb(231, 219, 199);
+    height: 630px;
+}
+
+section .section1 {
+    padding-left: 20px!important;
+}
+
+section .section1 div {
+    margin: 30px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 250, 247);
+}
+
+section .section1 > h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+section .section1 > p {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+section .section1 a {
+    text-decoration: none;
+}
+
+section .section1 a button {
+    background-color: rgb(97, 63, 3);
+    color: rgb(248, 232, 205);
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    height: 45px;
+    border: none;
+}
+
+section .section1 a button:hover {
+    background-color: rgb(248, 232, 205);
+    color: rgb(97, 63, 3);
+    cursor: pointer;
+}
+
+section .section1 div {
+    border-left: 4px solid rgb(97, 63, 3);
+    padding-left: 15px;
+}
+
+section .section1 div span.attr {
+    padding: 30px;
+}
+
+section .section1 div > p > .tag {
+    color: rgb(197, 141, 141);
+}
+
+section .section1 div > p > .attr {
+    color: rgb(206, 70, 70);
+}
+
+section .section1 div > p > span {
+    color: royalblue;
+}
+
+/* main2 */
+
+section .section2 {
+    margin-bottom: 15px;
+    background-color: rgb(231, 219, 199);
+    height: 540px;
+}
+
+section .section2 {
+    padding-left: 20px!important;
+}
+
+section .section2 div {
+    margin: 30px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 250, 247);
+}
+
+section .section2 > h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+section .section2 > p {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+section .section2 a {
+    text-decoration: none;
+}
+
+section .section2 button {
+    background-color: rgb(97, 63, 3);
+    color: rgb(248, 232, 205);
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    height: 45px;
+    border: none;
+}
+
+section .section2 button:hover {
+    background-color: rgb(248, 232, 205);
+    color: rgb(97, 63, 3);
+    cursor: pointer;
+}
+
+section .section2 div {
+    border-left: 4px solid rgb(97, 63, 3);
+    padding-left: 15px;
+}
+
+section .section2 div span.attr {
+    padding: 30px;
+}
+
+section .section2 div > p > .tag {
+    color: rgb(197, 141, 141);
+}
+
+section .section2 div > p > .attr {
+    color: rgb(206, 70, 70);
+}
+
+section .section2 div > p > span {
+    color: royalblue;
+}
+
+/* footer */
+
+footer .footer {
+    background-color: rgb(231, 219, 199);
+    color: rgb(197, 141, 141);
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+footer .footer a {
+    color: rgb(197, 141, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
